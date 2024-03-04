@@ -1,0 +1,73 @@
+/*section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align:center;
+    background-color: rgb(88, 204, 88);
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: burlywood;
+
+}
+
+div:nth-of-type(3n){
+    background-color: rgb(192, 123, 32);
+}
+
+#one{
+    transform: rotate(45deg);
+}
+#two{
+    transform:scale(0.5);
+}
+#three{
+    transform: translateX(100px);
+}
+#four{
+    transform: skew(30deg);
+     box-shadow: 2px 2px 10px black;
+}
+#five{
+    transform: rotate(30deg) translateX(150px);
+}
+#image{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(59, 144, 59);
+    margin: 10px auto;
+    background-image: url("wp4219851.webp");
+    background-size: cover;
+} */
+
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    transition: 1s;
+    text-align: center;
+}
+
+.desc{
+    padding: 0 2px 0 2px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px 5px 0 0;
+    margin:auto;
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px goldenrod;
+}

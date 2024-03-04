@@ -1,0 +1,35 @@
+/* .box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: Apnacollege;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+}
+
+@keyframes Apnacollege{
+    from{
+        font-size: 20px;
+        background-color: blue;
+    }
+    to{
+        font-size: 40px;
+        background-color: aqua;
+    }
+} */
+
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media(width: 400px){
+    h1{
+        background-color: red;
+        color: aquamarine;
+    }
+}

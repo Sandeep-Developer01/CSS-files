@@ -1,0 +1,23 @@
+.desc {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px black;
+    margin: 10px;
+    transition: 1s;
+}
+.desc img {
+    width: 100px;
+    height: 100px;
+}
+
+.card{
+    text-align: center;
+}
+
+.desc:hover{
+    box-shadow: 0 8px 16px goldenrod;
+}
